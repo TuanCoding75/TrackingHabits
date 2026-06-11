@@ -7,13 +7,13 @@ import '@mui/material'
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import Formular from './Formular/Formular';
+import Tasks from './Tasks/Tasks'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>  
-      <Formular />
-
+      <Tasks />
     </>
   )
 }
